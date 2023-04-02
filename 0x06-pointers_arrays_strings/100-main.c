@@ -6,7 +6,10 @@
  *
  * Return: Always 0.
  */
+<<<<<<< HEAD
 
+=======
+>>>>>>> f89ebeee03f20651e5af99c8faba1a53bb9fbe5c
 int main(void)
 {
 	char s[] = "ROT13 (\"rotate by 13 places\", sometimes hyphenated ROT-13) is a simple letter substitution cipher.\n";

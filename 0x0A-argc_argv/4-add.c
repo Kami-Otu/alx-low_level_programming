@@ -15,11 +15,15 @@ int main(int argc, char *argv[])
 {
 	int i, sum = 0;
 
-	for (i = 0; i < argc; i++)
+	if (argc < 1)
 	{
-		printf("%d\n", i);
+		for (i = 0; i < argc; i++)
+		{
+			printf("%d\n", i);
+			return (0);
+		}
 	}
-	if (argc > 1)
+	else if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
 		{
